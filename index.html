@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="inpt">
+            <img src="./image/rainy.jpg" class="img" />
+            <!-- <img src="./image/Partly_cloudy-removebg-preview.png" alt=""> -->
+        </div>
+
+        <div class="a">
+            <label for="city">City:</label>
+            <input type="text" id="city" class="input" value="bursa">
+            <button class="button" value="button">Click</button>
+        </div>
+        <div id="derecler">
+            <div class="derece">
+                <p>Max C°:</p>
+                <p class="deger maxDeger">20</p>
+            </div>
+            <div class="derece">
+                <p>Min C°:</p>
+                <p class="deger mimDeger">20</p>
+            </div>
+            <div class="derece">
+                <p>Ort C°:</p>
+                <p class="deger ortDeger">20</p>
+            </div>
+        </div>
+
+        <div id="coordinates">
+            <div class="enlem">
+                <p class="latName">Lat:</p>
+                <p class="lat deger">55464556</p>
+            </div>
+
+            <div class="enlem">
+                <p class="lonName">Lon:</p>
+                <p class="lon deger">55464556</p>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+            integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+            crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
+</body>
+
+</html>
